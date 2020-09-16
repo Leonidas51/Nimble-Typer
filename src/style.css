@@ -104,6 +104,10 @@ html {
   position: absolute;
   font-size: 25px;
   white-space: nowrap;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 
 .word.remove-animate {
