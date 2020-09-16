@@ -40,6 +40,7 @@ class Game {
     this.tick = this.tick.bind(this);
     this.startGame = this.startGame.bind(this);
     this.input.value = "";
+    document.querySelector('body').style.display = "block";
 
     window.addEventListener("keyup", this.enterWord.bind(this));
     document.getElementById("btn-init").addEventListener("click", this.startGame);
