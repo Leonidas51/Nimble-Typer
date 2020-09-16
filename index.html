@@ -1,0 +1,50 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+	<title>Nimble Typer</title>
+  <!--meta name="viewport" content="width=device-width, initial-scale=1"-->
+</head>
+
+<body>
+  <div id="main">
+    <div id="overlay">
+      <div id="overlay-start">
+        <button id="btn-init" class="btn-start">СТАРТ</button>
+      </div>
+      <div id="overlay-endgame">
+        <div id="endgame-container">
+          <h2 id="endgame-title">Игра окончена!</h2>
+
+          <div class="endgame-section">
+            <div class="endgame-section-title">Слов введено:</div>
+            <div id="endgame-value-score" class="endgame-value">0</div>
+          </div>
+          
+          <div class="endgame-section">
+            <div class="endgame-section-title">Самое длинное слово:</div>
+            <div id="endgame-value-longest-correct" class="endgame-value">N/A</div>
+          </div>
+          
+          <div class="endgame-section">
+            <div class="endgame-section-title">Самое длинная ошибка:</div>
+            <div id="endgame-value-longest-error" class="endgame-value">N/A</div>
+          </div>
+
+          <div class="endgame-section">
+            <button id="btn-restart" class="btn-start">Начать сначала</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="msg-container"></div>
+    <div id="play-area">
+    </div>
+    <div id="input-container">
+      <span id="arrow">></span>
+      <input id="main-input" type="text" disabled />
+    </div>
+  </div>
+  <script src="index.min.js"></script>
+</body>
+
+</html>
